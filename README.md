@@ -4,7 +4,7 @@
 
 ## What is this?
 
-This is the source code of my contribution for the [Return to Promised Land](https://plus4world.powweb.com/software/Return_to_Promised_Land) winning Commodore Plus/4 demo, released at Árok 2026.
+This is the source code of [my contribution](https://youtu.be/NpHyrDOa1-s?t=538) for the [Return to Promised Land](https://plus4world.powweb.com/software/Return_to_Promised_Land) winning Commodore Plus/4 demo, released at Árok 2026.
 
 The effect is a filled, rotating Omega symbol over a bitmap. I call the technique deltafill because it updates only the pixels that actually change from one frame to the next. It uses a set of horizontal sine plotters that draw either the object color or the background pixels along the object's edges. The tricky part is determining when each plotter should be active. To avoid doing that work at runtime, the on/off state switch points are precomputed. That's essentially the whole technique on a high level.
 
