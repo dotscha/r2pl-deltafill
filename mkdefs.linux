@@ -1,0 +1,10 @@
+JAVAC = javac
+JAVA = java
+JAR = jar cf
+EXO = exomizer3
+MKD64 = echo
+EMU = echo
+ASS = sh ass.sh
+RM = rm
+
+LIB = classes.jar
