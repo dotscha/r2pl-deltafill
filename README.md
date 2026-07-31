@@ -29,8 +29,8 @@ The source code in this repo is the last version of the code before linking.
  - `*.java`: the source code of the java program that generates the above two files
  - [renderer0.asm](renderer0.asm) and [renderer1.asm](renderer1.asm): the renderer code split into two parts for memory layout reasons
  - [Makefile](Makefile): a standard makefile for building the project
- - [Mech.prg](Mech.prg): background multicolor image
- - [Mech_omega.prg](Mech_omega.prg): background + omega object at the initial position as a multicolor image
+ - `Mech.prg`: background multicolor image
+ - `Mech_omega.prg`: background + omega object at the initial position as a multicolor image
  - [main.asm](main.asm): the main source file, links everything together and creates the program that runs the animation
- - [main.prg](main.prg): the final executable PRG file, entry at $3000
- - [main_exo.prg](main_exo.prg): the same, compressed with Exomizer
+ - `main.prg`: the final executable PRG file, entry at $3000
+ - `main_exo.prg`: the same, compressed with Exomizer
