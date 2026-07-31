@@ -22,15 +22,15 @@ The build environment is the `adotsch/dev6502` Docker image. The project uses GN
 
 The source code in this repo is the last version of the code before linking. 
 
- - `omega2x.txt`: the Omega object as a simple TXT file
- - `plotters.asm`: macro definitions for horizontal plotter routines
- - `sintab.asm`: sinus table for plotter routines (generated)
- - `renderer.asm`: object renderer speedcode, and plotter on/off switch logic (generated)
+ - [omega2x.txt](omega2x.txt): the Omega object as a simple TXT file
+ - [plotters.asm](plotters.asm): macro definitions for horizontal plotter routines
+ - [sintab.asm](sintab.asm): sinus table for plotter routines (generated)
+ - [renderer.asm](renderer.asm): object renderer speedcode, and plotter on/off switch logic (generated)
  - `*.java`: the source code of the java program that generates the above two files
- - `renderer0.asm` and `renderer1.asm`: the renderer code split into two parts for memory layout reasons
- - `Makefile`: a standard makefile for building the project
- - `Mech.prg`: background multicolor image
- - `Mech_omega.prg`: background + omega object at the initial position as a multicolor image
- - `main.asm`: the main source file, links everything together and creates the program that runs the animation
- - `main.prg`: the final executable PRG file, entry at $3000
- - `main_exo.prg`: the same, compressed with Exomizer
+ - [renderer0.asm](renderer0.asm) and [renderer1.asm](renderer1.asm): the renderer code split into two parts for memory layout reasons
+ - [Makefile](Makefile): a standard makefile for building the project
+ - [Mech.prg](Mech.prg): background multicolor image
+ - [Mech_omega.prg](Mech_omega.prg): background + omega object at the initial position as a multicolor image
+ - [main.asm](main.asm): the main source file, links everything together and creates the program that runs the animation
+ - [main.prg](main.prg): the final executable PRG file, entry at $3000
+ - [main_exo.prg](main_exo.prg): the same, compressed with Exomizer
